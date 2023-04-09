@@ -1,23 +1,23 @@
 const Queue = () => {
-    let store = [];
+  let store = [];
 
-    return {
-        enqueue(item) {
-            store.push(item);
-        },
-        dequeue() {
-            store.shift();
-        },
-        peek() {
-            return store[0];
-        },
-        clear() {
-            store.splice(0);
-        },
-        length() {
-            return store.length;
-        }
-    };
+  return {
+    enqueue(item) {
+      store.push(item);
+    },
+    dequeue() {
+      store.shift();
+    },
+    peek() {
+      return store[0];
+    },
+    clear() {
+      store.splice(0);
+    },
+    length() {
+      return store.length;
+    },
+  };
 };
 
 /* 사용법
