@@ -19,7 +19,7 @@ const Stack = () => {
             top = 0;
         },
         length() {
-            return store.length;
+            return top;
         }
     };
 };

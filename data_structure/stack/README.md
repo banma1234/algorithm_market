@@ -22,4 +22,4 @@ let top = 0;    // stack의 index값을 대표하는 변수
 - pop() : store.pop()
 - peek() : return store[top - 1]
 - clear() : store.splice(0);
-- length() : return store.length
+- length() : return top
