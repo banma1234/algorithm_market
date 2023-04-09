@@ -17,5 +17,3 @@ const decimal = (number) => {
     result.splice(0, 1);
     return result;
 }
-
-console.log(decimal(17));
