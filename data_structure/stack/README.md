@@ -23,3 +23,35 @@ let top = 0;    // stack의 index값을 대표하는 변수
 - peek() : return store[top - 1]
 - clear() : store.splice(0);
 - length() : return top
+
+---
+
+### 소스코드
+
+```javascript
+const Stack = () => {
+    let store = [];
+    let top = 0;
+
+    return{
+        push(item) {
+            store.push(item);
+            top++;
+        },
+        pop() {
+            store.pop();
+            top--;
+        },
+        peek() {
+            return store[top-1];
+        },
+        clear() {
+            store.splice(0);
+            top = 0;
+        },
+        length() {
+            return top;
+        }
+    };
+};
+```
