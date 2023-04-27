@@ -22,5 +22,3 @@ function subset(x, y) {
   DFS(x);
   return result;
 }
-
-console.log(subset(1, 3));

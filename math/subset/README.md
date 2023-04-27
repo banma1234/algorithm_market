@@ -49,14 +49,14 @@ console.log(subset(1, 3));
 ### 소스코드
 
 ```javascript
-function subset(n) {
+function subset(x, y) {
   const result = [];
-  const subset = Array(n + 1).fill(0);
+  const subset = Array(y + 1).fill(0);
 
   function DFS(num) {
-    if (num > n) {
+    if (num > y) {
       let tmp = "";
-      for (let i = 1; i < n + 1; i++) {
+      for (let i = 0; i < y + 1; i++) {
         if (subset[i] === 1) {
           tmp += i + " ";
         }
@@ -70,7 +70,8 @@ function subset(n) {
     }
   }
 
-  DFS(1);
+  DFS(x);
   return result;
+}
 }
 ```
