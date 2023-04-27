@@ -10,6 +10,7 @@
 
   - **[약수(devisor)](https://github.com/banma1234/algorithm_market/tree/main/math/devisor)** : 제곱근을 이용한 약수 구하기
   - **[소수(decimal)](https://github.com/banma1234/algorithm_market/tree/main/math/decimal)** : 에라토스테네스의 채
+  - **[부분집합(subset)](https://github.com/banma1234/algorithm_market/tree/main/math/subset)** : DFS 탐색을 이용한 부분집합 경우의 수 구하기
 
 - ### 자료구조(data_structure)
   - **[큐(Queue)](https://github.com/banma1234/algorithm_market/tree/main/data_structure/queue)** : 배열을 이용해 구현
