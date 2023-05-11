@@ -6,6 +6,9 @@
 
 ## 쇼핑 리스트
 
+- ### 문제해결 패턴(pattern)
+  - **[빈도수 측정(frequency Counter)](https://github.com/banma1234/algorithm_market/tree/main/pattern/frequency_counter)** : 객체를 이용해 빈도수를 측정하는 패턴
+
 - ### 수학(math)
 
   - **[약수(devisor)](https://github.com/banma1234/algorithm_market/tree/main/math/devisor)** : 제곱근을 이용한 약수 구하기
