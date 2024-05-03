@@ -9,7 +9,6 @@
 - `clear()` : queue를 초기화한다.
 - `length()` : queue의 크기를 출력한다.
 
-
 js에서는 `배열`을 이용하여 간단히 구현 가능하다.
 
 ---
@@ -30,24 +29,24 @@ let store = [];
 
 ```javascript
 const Queue = () => {
-    let store = [];
+  let store = [];
 
-    return {
-        enqueue(item) {
-            store.push(item);
-        },
-        dequeue() {
-            store.shift();
-        },
-        peek() {
-            return store[0];
-        },
-        clear() {
-            store.splice(0);
-        },
-        length() {
-            return store.length;
-        }
-    };
+  return {
+    enqueue(item) {
+      store.push(item);
+    },
+    dequeue() {
+      store.shift();
+    },
+    peek() {
+      return store[0];
+    },
+    clear() {
+      store.splice(0);
+    },
+    length() {
+      return store.length;
+    },
+  };
 };
 ```

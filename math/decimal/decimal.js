@@ -1,4 +1,4 @@
-const decimal = number => {
+const decimal = (number) => {
   // 크기가 number+1인 array를 선언함과 동시에 모든 원소를 true로 채우되 0, 1은 false로 변경
   let result = Array(number + 1)
     .fill(true)

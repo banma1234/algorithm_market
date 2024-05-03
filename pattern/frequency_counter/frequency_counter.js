@@ -40,15 +40,14 @@ const betterSolution = (A, B) => {
   return true;
 };
 
-
 const first = "im fearless";
 const second = "le sserafim";
 
-console.log("일반적인 solution")
-let startNow = performance.now()
+console.log("일반적인 solution");
+let startNow = performance.now();
 console.log(solution(first, second)); // true
-let endNow = performance.now()
-console.log(endNow - startNow)
+let endNow = performance.now();
+console.log(endNow - startNow);
 console.log("======================");
 console.log("개선된 solution");
 startNow = performance.now();

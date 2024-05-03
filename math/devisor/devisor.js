@@ -1,4 +1,4 @@
-const devisor = target => {
+const devisor = (target) => {
   result = new Set();
   // 1 ~ 제곱근까지 연산
   for (let i = 1; i < Math.sqrt(target); i++) {

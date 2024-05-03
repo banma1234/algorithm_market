@@ -15,7 +15,7 @@ js에서는 `배열`을 이용하여 간단히 구현 가능하다.
 
 ```javascript
 let store = [];
-let top = 0;    // stack의 index값을 대표하는 변수
+let top = 0; // stack의 index값을 대표하는 변수
 ```
 
 - push(item) : store.push(item)
@@ -30,28 +30,28 @@ let top = 0;    // stack의 index값을 대표하는 변수
 
 ```javascript
 const Stack = () => {
-    let store = [];
-    let top = 0;
+  let store = [];
+  let top = 0;
 
-    return{
-        push(item) {
-            store.push(item);
-            top++;
-        },
-        pop() {
-            store.pop();
-            top--;
-        },
-        peek() {
-            return store[top-1];
-        },
-        clear() {
-            store.splice(0);
-            top = 0;
-        },
-        length() {
-            return top;
-        }
-    };
+  return {
+    push(item) {
+      store.push(item);
+      top++;
+    },
+    pop() {
+      store.pop();
+      top--;
+    },
+    peek() {
+      return store[top - 1];
+    },
+    clear() {
+      store.splice(0);
+      top = 0;
+    },
+    length() {
+      return top;
+    },
+  };
 };
 ```
